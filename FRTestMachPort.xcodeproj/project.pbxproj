@@ -12,26 +12,32 @@
 		B5EBC2221FB0ACFE00CDC688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EBC2211FB0ACFE00CDC688 /* Assets.xcassets */; };
 		B5EBC2251FB0ACFE00CDC688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EBC2231FB0ACFE00CDC688 /* Main.storyboard */; };
 		B5EBC2281FB0ACFE00CDC688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC2271FB0ACFE00CDC688 /* main.m */; };
-		B5EBC2331FB0ACFE00CDC688 /* FRTestMachPortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC2321FB0ACFE00CDC688 /* FRTestMachPortTests.m */; };
-		B5EBC23E1FB0ACFE00CDC688 /* FRTestMachPortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC23D1FB0ACFE00CDC688 /* FRTestMachPortUITests.m */; };
+		B5EBC2521FB0AD1F00CDC688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC2511FB0AD1F00CDC688 /* main.m */; };
+		B5EBC2631FB0AD4F00CDC688 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBC2621FB0AD4F00CDC688 /* Server.m */; };
+		B5EBC2681FB0B0C900CDC688 /* Server in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5EBC24F1FB0AD1F00CDC688 /* Server */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B5EBC22F1FB0ACFE00CDC688 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5EBC2101FB0ACFD00CDC688 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5EBC2171FB0ACFE00CDC688;
-			remoteInfo = FRTestMachPort;
+/* Begin PBXCopyFilesBuildPhase section */
+		B5EBC24D1FB0AD1F00CDC688 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-		B5EBC23A1FB0ACFE00CDC688 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5EBC2101FB0ACFD00CDC688 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5EBC2171FB0ACFE00CDC688;
-			remoteInfo = FRTestMachPort;
+		B5EBC2671FB0B0B600CDC688 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				B5EBC2681FB0B0C900CDC688 /* Server in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B5EBC2181FB0ACFE00CDC688 /* FRTestMachPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRTestMachPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,12 +50,10 @@
 		B5EBC2261FB0ACFE00CDC688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5EBC2271FB0ACFE00CDC688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5EBC2291FB0ACFE00CDC688 /* FRTestMachPort.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FRTestMachPort.entitlements; sourceTree = "<group>"; };
-		B5EBC22E1FB0ACFE00CDC688 /* FRTestMachPortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRTestMachPortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5EBC2321FB0ACFE00CDC688 /* FRTestMachPortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRTestMachPortTests.m; sourceTree = "<group>"; };
-		B5EBC2341FB0ACFE00CDC688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5EBC2391FB0ACFE00CDC688 /* FRTestMachPortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRTestMachPortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5EBC23D1FB0ACFE00CDC688 /* FRTestMachPortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRTestMachPortUITests.m; sourceTree = "<group>"; };
-		B5EBC23F1FB0ACFE00CDC688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EBC24F1FB0AD1F00CDC688 /* Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Server; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EBC2511FB0AD1F00CDC688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5EBC2611FB0AD4F00CDC688 /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		B5EBC2621FB0AD4F00CDC688 /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +64,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5EBC22B1FB0ACFE00CDC688 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5EBC2361FB0ACFE00CDC688 /* Frameworks */ = {
+		B5EBC24C1FB0AD1F00CDC688 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				B5EBC21A1FB0ACFE00CDC688 /* FRTestMachPort */,
-				B5EBC2311FB0ACFE00CDC688 /* FRTestMachPortTests */,
-				B5EBC23C1FB0ACFE00CDC688 /* FRTestMachPortUITests */,
+				B5EBC2501FB0AD1F00CDC688 /* Server */,
 				B5EBC2191FB0ACFE00CDC688 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,8 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				B5EBC2181FB0ACFE00CDC688 /* FRTestMachPort.app */,
-				B5EBC22E1FB0ACFE00CDC688 /* FRTestMachPortTests.xctest */,
-				B5EBC2391FB0ACFE00CDC688 /* FRTestMachPortUITests.xctest */,
+				B5EBC24F1FB0AD1F00CDC688 /* Server */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,22 +108,14 @@
 			path = FRTestMachPort;
 			sourceTree = "<group>";
 		};
-		B5EBC2311FB0ACFE00CDC688 /* FRTestMachPortTests */ = {
+		B5EBC2501FB0AD1F00CDC688 /* Server */ = {
 			isa = PBXGroup;
 			children = (
-				B5EBC2321FB0ACFE00CDC688 /* FRTestMachPortTests.m */,
-				B5EBC2341FB0ACFE00CDC688 /* Info.plist */,
+				B5EBC2511FB0AD1F00CDC688 /* main.m */,
+				B5EBC2611FB0AD4F00CDC688 /* Server.h */,
+				B5EBC2621FB0AD4F00CDC688 /* Server.m */,
 			);
-			path = FRTestMachPortTests;
-			sourceTree = "<group>";
-		};
-		B5EBC23C1FB0ACFE00CDC688 /* FRTestMachPortUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B5EBC23D1FB0ACFE00CDC688 /* FRTestMachPortUITests.m */,
-				B5EBC23F1FB0ACFE00CDC688 /* Info.plist */,
-			);
-			path = FRTestMachPortUITests;
+			path = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +128,7 @@
 				B5EBC2141FB0ACFE00CDC688 /* Sources */,
 				B5EBC2151FB0ACFE00CDC688 /* Frameworks */,
 				B5EBC2161FB0ACFE00CDC688 /* Resources */,
+				B5EBC2671FB0B0B600CDC688 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -151,41 +139,22 @@
 			productReference = B5EBC2181FB0ACFE00CDC688 /* FRTestMachPort.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5EBC22D1FB0ACFE00CDC688 /* FRTestMachPortTests */ = {
+		B5EBC24E1FB0AD1F00CDC688 /* Server */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5EBC2451FB0ACFE00CDC688 /* Build configuration list for PBXNativeTarget "FRTestMachPortTests" */;
+			buildConfigurationList = B5EBC2531FB0AD1F00CDC688 /* Build configuration list for PBXNativeTarget "Server" */;
 			buildPhases = (
-				B5EBC22A1FB0ACFE00CDC688 /* Sources */,
-				B5EBC22B1FB0ACFE00CDC688 /* Frameworks */,
-				B5EBC22C1FB0ACFE00CDC688 /* Resources */,
+				B5EBC24B1FB0AD1F00CDC688 /* Sources */,
+				B5EBC24C1FB0AD1F00CDC688 /* Frameworks */,
+				B5EBC24D1FB0AD1F00CDC688 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5EBC2301FB0ACFE00CDC688 /* PBXTargetDependency */,
 			);
-			name = FRTestMachPortTests;
-			productName = FRTestMachPortTests;
-			productReference = B5EBC22E1FB0ACFE00CDC688 /* FRTestMachPortTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B5EBC2381FB0ACFE00CDC688 /* FRTestMachPortUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5EBC2481FB0ACFE00CDC688 /* Build configuration list for PBXNativeTarget "FRTestMachPortUITests" */;
-			buildPhases = (
-				B5EBC2351FB0ACFE00CDC688 /* Sources */,
-				B5EBC2361FB0ACFE00CDC688 /* Frameworks */,
-				B5EBC2371FB0ACFE00CDC688 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B5EBC23B1FB0ACFE00CDC688 /* PBXTargetDependency */,
-			);
-			name = FRTestMachPortUITests;
-			productName = FRTestMachPortUITests;
-			productReference = B5EBC2391FB0ACFE00CDC688 /* FRTestMachPortUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = Server;
+			productName = Server;
+			productReference = B5EBC24F1FB0AD1F00CDC688 /* Server */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,16 +168,18 @@
 					B5EBC2171FB0ACFE00CDC688 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
-					B5EBC22D1FB0ACFE00CDC688 = {
+					B5EBC24E1FB0AD1F00CDC688 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = B5EBC2171FB0ACFE00CDC688;
-					};
-					B5EBC2381FB0ACFE00CDC688 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B5EBC2171FB0ACFE00CDC688;
 					};
 				};
 			};
@@ -226,8 +197,7 @@
 			projectRoot = "";
 			targets = (
 				B5EBC2171FB0ACFE00CDC688 /* FRTestMachPort */,
-				B5EBC22D1FB0ACFE00CDC688 /* FRTestMachPortTests */,
-				B5EBC2381FB0ACFE00CDC688 /* FRTestMachPortUITests */,
+				B5EBC24E1FB0AD1F00CDC688 /* Server */,
 			);
 		};
 /* End PBXProject section */
@@ -239,20 +209,6 @@
 			files = (
 				B5EBC2221FB0ACFE00CDC688 /* Assets.xcassets in Resources */,
 				B5EBC2251FB0ACFE00CDC688 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5EBC22C1FB0ACFE00CDC688 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5EBC2371FB0ACFE00CDC688 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,36 +225,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5EBC22A1FB0ACFE00CDC688 /* Sources */ = {
+		B5EBC24B1FB0AD1F00CDC688 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5EBC2331FB0ACFE00CDC688 /* FRTestMachPortTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5EBC2351FB0ACFE00CDC688 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5EBC23E1FB0ACFE00CDC688 /* FRTestMachPortUITests.m in Sources */,
+				B5EBC2631FB0AD4F00CDC688 /* Server.m in Sources */,
+				B5EBC2521FB0AD1F00CDC688 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B5EBC2301FB0ACFE00CDC688 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B5EBC2171FB0ACFE00CDC688 /* FRTestMachPort */;
-			targetProxy = B5EBC22F1FB0ACFE00CDC688 /* PBXContainerItemProxy */;
-		};
-		B5EBC23B1FB0ACFE00CDC688 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B5EBC2171FB0ACFE00CDC688 /* FRTestMachPort */;
-			targetProxy = B5EBC23A1FB0ACFE00CDC688 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B5EBC2231FB0ACFE00CDC688 /* Main.storyboard */ = {
@@ -422,7 +358,7 @@
 				CODE_SIGN_ENTITLEMENTS = FRTestMachPort/FRTestMachPort.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7PLGSDP5AT;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
 				INFOPLIST_FILE = FRTestMachPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.FRTestMachPort;
@@ -437,7 +373,7 @@
 				CODE_SIGN_ENTITLEMENTS = FRTestMachPort/FRTestMachPort.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7PLGSDP5AT;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
 				INFOPLIST_FILE = FRTestMachPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.FRTestMachPort;
@@ -445,61 +381,21 @@
 			};
 			name = Release;
 		};
-		B5EBC2461FB0ACFE00CDC688 /* Debug */ = {
+		B5EBC2541FB0AD1F00CDC688 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7PLGSDP5AT;
-				INFOPLIST_FILE = FRTestMachPortTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.FRTestMachPortTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRTestMachPort.app/Contents/MacOS/FRTestMachPort";
 			};
 			name = Debug;
 		};
-		B5EBC2471FB0ACFE00CDC688 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7PLGSDP5AT;
-				INFOPLIST_FILE = FRTestMachPortTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.FRTestMachPortTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRTestMachPort.app/Contents/MacOS/FRTestMachPort";
-			};
-			name = Release;
-		};
-		B5EBC2491FB0ACFE00CDC688 /* Debug */ = {
+		B5EBC2551FB0AD1F00CDC688 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7PLGSDP5AT;
-				INFOPLIST_FILE = FRTestMachPortUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.FRTestMachPortUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FRTestMachPort;
-			};
-			name = Debug;
-		};
-		B5EBC24A1FB0ACFE00CDC688 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7PLGSDP5AT;
-				INFOPLIST_FILE = FRTestMachPortUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FanFrank.FRTestMachPortUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FRTestMachPort;
 			};
 			name = Release;
 		};
@@ -524,20 +420,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5EBC2451FB0ACFE00CDC688 /* Build configuration list for PBXNativeTarget "FRTestMachPortTests" */ = {
+		B5EBC2531FB0AD1F00CDC688 /* Build configuration list for PBXNativeTarget "Server" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5EBC2461FB0ACFE00CDC688 /* Debug */,
-				B5EBC2471FB0ACFE00CDC688 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5EBC2481FB0ACFE00CDC688 /* Build configuration list for PBXNativeTarget "FRTestMachPortUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5EBC2491FB0ACFE00CDC688 /* Debug */,
-				B5EBC24A1FB0ACFE00CDC688 /* Release */,
+				B5EBC2541FB0AD1F00CDC688 /* Debug */,
+				B5EBC2551FB0AD1F00CDC688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
